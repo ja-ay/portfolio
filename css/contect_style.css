@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*@import url('');*/
+
+@font-face{
+    font-family: 'LeferiPoint-BlackObliqueA';
+    src: url('/fonts/LeferiPoint-BlackObliqueA.woff') format('woff');
+}
+p{
+    font-family: 'LeferiPoint-BlackObliqueA';
+    color: #eee;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+#contect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 3%;
+    height: 100%;
+    background-color: #002bc5;
+    font-family: 'LeferiPoint-BlackObliqueA';
+}
+#contect .contect-left-wrap{
+    width: 28%;
+}
+#contect .contect-left-wrap figure img{
+    width: 100%;
+}
+#contect .contect-left-wrap .profile-wrap{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 58%;
+    width: 26%;
+}
+#contect .text-wrap{
+    width: 68%;
+}
+
+/* pc */
+/* @media screen and (min-width: 1551px) {
+
+} */
+
+/* @media screen and (max-width: 1550px) and (min-width: 1401px) {
+
+} */
+
+/* tablet horizen */
+/* @media screen and (max-width: 1400px) and (min-width: 1001px) {
+
+} */
+
+/* tablet vertical */
+/* @media screen and (max-width: 1000px) and (min-width: 771px) {
+
+} */
+
+/* @media screen and (max-width: 770px) and (min-width: 571px) {
+
+} */
+
+/* mobile */
+/* @media screen and (max-width: 570px) {
+    
+} */

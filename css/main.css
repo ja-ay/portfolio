@@ -14,3 +14,40 @@
     font-style: normal;
 }
 
+/* reset */
+*{margin: 0; padding: 0}
+li{list-style: none}
+img{display: block}
+a{text-decoration: none}
+section{position: relative}
+
+/* element setting */
+body, header, section, footer, nav, div, p, li, h1, h2, h3, h4, h5, h6,a{font-family: 'Titillium Web', sans-serif; font-weight: 300; color: #333}
+
+/* pc */
+@media screen and (min-width: 1551px) {
+
+}
+
+@media screen and (max-width: 1550px) and (min-width: 1401px) {
+
+}
+
+/* tablet horizen */
+@media screen and (max-width: 1400px) and (min-width: 1001px) {
+
+}
+
+/* tablet vertical */
+@media screen and (max-width: 1000px) and (min-width: 771px) {
+
+}
+
+@media screen and (max-width: 770px) and (min-width: 571px) {
+
+}
+
+/* mobile */
+@media screen and (max-width: 570px) {
+    
+}
